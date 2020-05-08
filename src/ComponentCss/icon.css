@@ -1,0 +1,30 @@
+/* APP ICONS */
+.cross {
+  width: 12px;
+  position: relative;
+  top: 30px;
+}
+
+.search {
+  color: black;
+  position: absolute;
+  left: 25px;
+  height: 40px;
+}
+.no-search {
+  opacity: 0;
+  position: absolute;
+  height: 20px;
+  right: 115px;
+}
+.search-cross {
+  position: absolute;
+  height: 25px;
+  right: 117px;
+}
+
+.error {
+  position: absolute;
+  height: 25px;
+  right: 117px;
+}

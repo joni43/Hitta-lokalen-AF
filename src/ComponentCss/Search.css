@@ -1,0 +1,55 @@
+.suggestions {
+  overflow-y: scroll;
+  height: auto;
+  max-height: calc(100% + 25rem);
+  /* max-height: 450px; */
+  /* height: calc(100% + 15rem); */
+  list-style: none;
+  margin-left: 8px;
+  width: calc(100% - 1rem);
+  position: absolute;
+  top: 43px;
+  padding-left: 30px;
+  padding-bottom: 26px;
+  z-index: 50000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  background: white;
+  border-width: 1px 1px 1px;
+  border-style: none solid solid;
+  border-color: rgb(102, 102, 102) rgb(102, 102, 102) rgb(102, 102, 102);
+  border-image: initial;
+  border-top: none;
+  border-radius: 0px 0px 28px 28px;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+li:hover {
+  background-color: #dddada93;
+  cursor: pointer;
+  font-weight: 700;
+}
+.suggestion-active,
+.suggestions li:hover {
+  background-color: #dddada93;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+  width: 300px;
+}
+.input-search {
+  box-sizing: border-box;
+  height: 54px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  background: rgb(255, 255, 255);
+  border-width: 1px 1px 1px;
+  border-style: solid solid none;
+  border-color: rgb(102, 102, 102) rgb(102, 102, 102) rgb(102, 102, 102);
+  border-image: initial;
+  border-radius: 28px 28px 0px 0px;
+  border-bottom: 1px solid black;
+}

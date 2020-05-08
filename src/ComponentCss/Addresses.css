@@ -1,0 +1,19 @@
+#open-adress::after {
+  content: '\25BC';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 42px;
+  width: 24px;
+  height: 48px;
+  right: 1px;
+  position: absolute;
+  padding: 0 1em;
+  background: #00005a;
+  color: #fff;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: 0.25s all ease;
+  -o-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
